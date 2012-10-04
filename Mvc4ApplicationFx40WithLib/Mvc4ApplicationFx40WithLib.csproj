@@ -299,6 +299,10 @@
       <Project>{55a373ed-857a-4ab0-96ca-dcfe41308517}</Project>
       <Name>ClassLibrary1</Name>
     </ProjectReference>
+    <ProjectReference Include="..\ClassLibraryClientProfile\ClassLibraryClientProfile.csproj">
+      <Project>{6856bac5-d72c-4de6-b80a-fa1edd3818b3}</Project>
+      <Name>ClassLibraryClientProfile</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

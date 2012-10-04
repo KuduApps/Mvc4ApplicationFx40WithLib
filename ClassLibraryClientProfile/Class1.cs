@@ -11,7 +11,7 @@ namespace ClassLibraryClientProfile
         {
             get
             {
-                return "Hello from ClassLibraryClientProfile";
+                return "Hello from ClassLibraryClientProfile " + typeof(Class1).AssemblyQualifiedName;
             }
         }
     }

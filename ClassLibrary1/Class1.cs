@@ -9,6 +9,13 @@ namespace ClassLibrary1
     public class Class1
     {
         [MaxLength]
-        public int Foo { get; set; }
+        public string Foo
+        {
+            get
+            {
+                // Use both the lib and the resource for testing!
+                return typeof(ClaySharp.Clay).Name + " " + Resource1.Foo;
+            }
+        }
     }
 }

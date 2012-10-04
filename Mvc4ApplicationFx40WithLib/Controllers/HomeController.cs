@@ -10,7 +10,8 @@ namespace Mvc4ApplicationFx40WithLib.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application. " + typeof(ClassLibrary1.Class1).Name;
+            var c = new ClassLibrary1.Class1();
+            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application. " + c.Foo;
 
             return View();
         }

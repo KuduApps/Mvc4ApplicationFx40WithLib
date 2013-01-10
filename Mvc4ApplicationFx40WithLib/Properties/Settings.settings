@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Mvc4ApplicationFx40WithLib.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Mvc4ApplicationFx40WithLib_gov_nasa_gsfc_cdaweb_CDASWS" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://cdaweb.gsfc.nasa.gov:80/WS/jaxrpc</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
